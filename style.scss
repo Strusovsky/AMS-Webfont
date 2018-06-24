@@ -1,0 +1,1084 @@
+@import "variables";
+
+@font-face {
+  font-family: 'ams-icons';
+  src:  url('#{$icomoon-font-path}/ams-icons.eot?vu89ci');
+  src:  url('#{$icomoon-font-path}/ams-icons.eot?vu89ci#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/ams-icons.ttf?vu89ci') format('truetype'),
+    url('#{$icomoon-font-path}/ams-icons.woff?vu89ci') format('woff'),
+    url('#{$icomoon-font-path}/ams-icons.svg?vu89ci#ams-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ams-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ams-ad-1 {
+  &:before {
+    content: $ams-ad-1; 
+  }
+}
+.ams-alarm {
+  &:before {
+    content: $ams-alarm; 
+  }
+}
+.ams-android {
+  &:before {
+    content: $ams-android; 
+  }
+}
+.ams-apple {
+  &:before {
+    content: $ams-apple; 
+  }
+}
+.ams-apps {
+  &:before {
+    content: $ams-apps; 
+  }
+}
+.ams-arrow-chevron-left {
+  &:before {
+    content: $ams-arrow-chevron-left; 
+  }
+}
+.ams-arrow-chevron-right {
+  &:before {
+    content: $ams-arrow-chevron-right; 
+  }
+}
+.ams-arrow-down-1 {
+  &:before {
+    content: $ams-arrow-down-1; 
+  }
+}
+.ams-arrow-down-2 {
+  &:before {
+    content: $ams-arrow-down-2; 
+  }
+}
+.ams-arrow-left-1 {
+  &:before {
+    content: $ams-arrow-left-1; 
+  }
+}
+.ams-arrow-left-2 {
+  &:before {
+    content: $ams-arrow-left-2; 
+  }
+}
+.ams-arrow-right-1 {
+  &:before {
+    content: $ams-arrow-right-1; 
+  }
+}
+.ams-arrow-right-2 {
+  &:before {
+    content: $ams-arrow-right-2; 
+  }
+}
+.ams-arrow-up-1 {
+  &:before {
+    content: $ams-arrow-up-1; 
+  }
+}
+.ams-arrow-up-2 {
+  &:before {
+    content: $ams-arrow-up-2; 
+  }
+}
+.ams-attention {
+  &:before {
+    content: $ams-attention; 
+  }
+}
+.ams-backspace {
+  &:before {
+    content: $ams-backspace; 
+  }
+}
+.ams-battery {
+  &:before {
+    content: $ams-battery; 
+  }
+}
+.ams-behance {
+  &:before {
+    content: $ams-behance; 
+  }
+}
+.ams-bin {
+  &:before {
+    content: $ams-bin; 
+  }
+}
+.ams-bluetooth {
+  &:before {
+    content: $ams-bluetooth; 
+  }
+}
+.ams-book {
+  &:before {
+    content: $ams-book; 
+  }
+}
+.ams-bookmark {
+  &:before {
+    content: $ams-bookmark; 
+  }
+}
+.ams-box {
+  &:before {
+    content: $ams-box; 
+  }
+}
+.ams-burger-1 {
+  &:before {
+    content: $ams-burger-1; 
+  }
+}
+.ams-burger-2 {
+  &:before {
+    content: $ams-burger-2; 
+  }
+}
+.ams-calendar {
+  &:before {
+    content: $ams-calendar; 
+  }
+}
+.ams-camera {
+  &:before {
+    content: $ams-camera; 
+  }
+}
+.ams-car {
+  &:before {
+    content: $ams-car; 
+  }
+}
+.ams-card {
+  &:before {
+    content: $ams-card; 
+  }
+}
+.ams-cards {
+  &:before {
+    content: $ams-cards; 
+  }
+}
+.ams-cards-2 {
+  &:before {
+    content: $ams-cards-2; 
+  }
+}
+.ams-cast {
+  &:before {
+    content: $ams-cast; 
+  }
+}
+.ams-chart {
+  &:before {
+    content: $ams-chart; 
+  }
+}
+.ams-check {
+  &:before {
+    content: $ams-check; 
+  }
+}
+.ams-chemistry {
+  &:before {
+    content: $ams-chemistry; 
+  }
+}
+.ams-clock {
+  &:before {
+    content: $ams-clock; 
+  }
+}
+.ams-close {
+  &:before {
+    content: $ams-close; 
+  }
+}
+.ams-close-1 {
+  &:before {
+    content: $ams-close-1; 
+  }
+}
+.ams-close-2 {
+  &:before {
+    content: $ams-close-2; 
+  }
+}
+.ams-color-picker {
+  &:before {
+    content: $ams-color-picker; 
+  }
+}
+.ams-command {
+  &:before {
+    content: $ams-command; 
+  }
+}
+.ams-crop {
+  &:before {
+    content: $ams-crop; 
+  }
+}
+.ams-crown {
+  &:before {
+    content: $ams-crown; 
+  }
+}
+.ams-dashboard {
+  &:before {
+    content: $ams-dashboard; 
+  }
+}
+.ams-delivery {
+  &:before {
+    content: $ams-delivery; 
+  }
+}
+.ams-devices {
+  &:before {
+    content: $ams-devices; 
+  }
+}
+.ams-diagram {
+  &:before {
+    content: $ams-diagram; 
+  }
+}
+.ams-diamond {
+  &:before {
+    content: $ams-diamond; 
+  }
+}
+.ams-download {
+  &:before {
+    content: $ams-download; 
+  }
+}
+.ams-dribbble {
+  &:before {
+    content: $ams-dribbble; 
+  }
+}
+.ams-edit {
+  &:before {
+    content: $ams-edit; 
+  }
+}
+.ams-edit-2 {
+  &:before {
+    content: $ams-edit-2; 
+  }
+}
+.ams-enlarge {
+  &:before {
+    content: $ams-enlarge; 
+  }
+}
+.ams-error-1 {
+  &:before {
+    content: $ams-error-1; 
+  }
+}
+.ams-eye {
+  &:before {
+    content: $ams-eye; 
+  }
+}
+.ams-facebook {
+  &:before {
+    content: $ams-facebook; 
+  }
+}
+.ams-face-id {
+  &:before {
+    content: $ams-face-id; 
+  }
+}
+.ams-fb-messenger {
+  &:before {
+    content: $ams-fb-messenger; 
+  }
+}
+.ams-female {
+  &:before {
+    content: $ams-female; 
+  }
+}
+.ams-filter {
+  &:before {
+    content: $ams-filter; 
+  }
+}
+.ams-fingerprint {
+  &:before {
+    content: $ams-fingerprint; 
+  }
+}
+.ams-fitness {
+  &:before {
+    content: $ams-fitness; 
+  }
+}
+.ams-flag {
+  &:before {
+    content: $ams-flag; 
+  }
+}
+.ams-flickr {
+  &:before {
+    content: $ams-flickr; 
+  }
+}
+.ams-flight {
+  &:before {
+    content: $ams-flight; 
+  }
+}
+.ams-folder {
+  &:before {
+    content: $ams-folder; 
+  }
+}
+.ams-foursquare {
+  &:before {
+    content: $ams-foursquare; 
+  }
+}
+.ams-game-controller {
+  &:before {
+    content: $ams-game-controller; 
+  }
+}
+.ams-gear-settings {
+  &:before {
+    content: $ams-gear-settings; 
+  }
+}
+.ams-ghost {
+  &:before {
+    content: $ams-ghost; 
+  }
+}
+.ams-github {
+  &:before {
+    content: $ams-github; 
+  }
+}
+.ams-globe {
+  &:before {
+    content: $ams-globe; 
+  }
+}
+.ams-goblet {
+  &:before {
+    content: $ams-goblet; 
+  }
+}
+.ams-goggle-cardboard {
+  &:before {
+    content: $ams-goggle-cardboard; 
+  }
+}
+.ams-google {
+  &:before {
+    content: $ams-google; 
+  }
+}
+.ams-hand-like {
+  &:before {
+    content: $ams-hand-like; 
+  }
+}
+.ams-headphone {
+  &:before {
+    content: $ams-headphone; 
+  }
+}
+.ams-headphones {
+  &:before {
+    content: $ams-headphones; 
+  }
+}
+.ams-home {
+  &:before {
+    content: $ams-home; 
+  }
+}
+.ams-hot {
+  &:before {
+    content: $ams-hot; 
+  }
+}
+.ams-hourglass {
+  &:before {
+    content: $ams-hourglass; 
+  }
+}
+.ams-inbox {
+  &:before {
+    content: $ams-inbox; 
+  }
+}
+.ams-incognito {
+  &:before {
+    content: $ams-incognito; 
+  }
+}
+.ams-info {
+  &:before {
+    content: $ams-info; 
+  }
+}
+.ams-info-2 {
+  &:before {
+    content: $ams-info-2; 
+  }
+}
+.ams-instagram {
+  &:before {
+    content: $ams-instagram; 
+  }
+}
+.ams-joystick {
+  &:before {
+    content: $ams-joystick; 
+  }
+}
+.ams-keyboard {
+  &:before {
+    content: $ams-keyboard; 
+  }
+}
+.ams-lamp {
+  &:before {
+    content: $ams-lamp; 
+  }
+}
+.ams-like-heart {
+  &:before {
+    content: $ams-like-heart; 
+  }
+}
+.ams-link {
+  &:before {
+    content: $ams-link; 
+  }
+}
+.ams-link-1 {
+  &:before {
+    content: $ams-link-1; 
+  }
+}
+.ams-link-2 {
+  &:before {
+    content: $ams-link-2; 
+  }
+}
+.ams-linkedin {
+  &:before {
+    content: $ams-linkedin; 
+  }
+}
+.ams-lock {
+  &:before {
+    content: $ams-lock; 
+  }
+}
+.ams-login {
+  &:before {
+    content: $ams-login; 
+  }
+}
+.ams-loguot {
+  &:before {
+    content: $ams-loguot; 
+  }
+}
+.ams-mail {
+  &:before {
+    content: $ams-mail; 
+  }
+}
+.ams-Mail-mark {
+  &:before {
+    content: $ams-Mail-mark; 
+  }
+}
+.ams-male {
+  &:before {
+    content: $ams-male; 
+  }
+}
+.ams-map {
+  &:before {
+    content: $ams-map; 
+  }
+}
+.ams-map-pin {
+  &:before {
+    content: $ams-map-pin; 
+  }
+}
+.ams-media {
+  &:before {
+    content: $ams-media; 
+  }
+}
+.ams-megaphone {
+  &:before {
+    content: $ams-megaphone; 
+  }
+}
+.ams-message {
+  &:before {
+    content: $ams-message; 
+  }
+}
+.ams-microphone {
+  &:before {
+    content: $ams-microphone; 
+  }
+}
+.ams-mobile {
+  &:before {
+    content: $ams-mobile; 
+  }
+}
+.ams-monitor {
+  &:before {
+    content: $ams-monitor; 
+  }
+}
+.ams-mouse {
+  &:before {
+    content: $ams-mouse; 
+  }
+}
+.ams-music {
+  &:before {
+    content: $ams-music; 
+  }
+}
+.ams-newspaper {
+  &:before {
+    content: $ams-newspaper; 
+  }
+}
+.ams-new-window {
+  &:before {
+    content: $ams-new-window; 
+  }
+}
+.ams-notebook {
+  &:before {
+    content: $ams-notebook; 
+  }
+}
+.ams-notification-1 {
+  &:before {
+    content: $ams-notification-1; 
+  }
+}
+.ams-notification-2 {
+  &:before {
+    content: $ams-notification-2; 
+  }
+}
+.ams-notifications {
+  &:before {
+    content: $ams-notifications; 
+  }
+}
+.ams-office-box {
+  &:before {
+    content: $ams-office-box; 
+  }
+}
+.ams-ok.ru {
+  &:before {
+    content: $ams-ok.ru; 
+  }
+}
+.ams-palette {
+  &:before {
+    content: $ams-palette; 
+  }
+}
+.ams-paper-plane {
+  &:before {
+    content: $ams-paper-plane; 
+  }
+}
+.ams-pen {
+  &:before {
+    content: $ams-pen; 
+  }
+}
+.ams-percent {
+  &:before {
+    content: $ams-percent; 
+  }
+}
+.ams-periscope {
+  &:before {
+    content: $ams-periscope; 
+  }
+}
+.ams-phone-1 {
+  &:before {
+    content: $ams-phone-1; 
+  }
+}
+.ams-phone-2 {
+  &:before {
+    content: $ams-phone-2; 
+  }
+}
+.ams-phone-3 {
+  &:before {
+    content: $ams-phone-3; 
+  }
+}
+.ams-phone-4 {
+  &:before {
+    content: $ams-phone-4; 
+  }
+}
+.ams-phone-5 {
+  &:before {
+    content: $ams-phone-5; 
+  }
+}
+.ams-picture {
+  &:before {
+    content: $ams-picture; 
+  }
+}
+.ams-pin {
+  &:before {
+    content: $ams-pin; 
+  }
+}
+.ams-pinterest {
+  &:before {
+    content: $ams-pinterest; 
+  }
+}
+.ams-planet {
+  &:before {
+    content: $ams-planet; 
+  }
+}
+.ams-play {
+  &:before {
+    content: $ams-play; 
+  }
+}
+.ams-playlist {
+  &:before {
+    content: $ams-playlist; 
+  }
+}
+.ams-plus-1 {
+  &:before {
+    content: $ams-plus-1; 
+  }
+}
+.ams-plus-2 {
+  &:before {
+    content: $ams-plus-2; 
+  }
+}
+.ams-pocket {
+  &:before {
+    content: $ams-pocket; 
+  }
+}
+.ams-pokemon {
+  &:before {
+    content: $ams-pokemon; 
+  }
+}
+.ams-portfolio {
+  &:before {
+    content: $ams-portfolio; 
+  }
+}
+.ams-power {
+  &:before {
+    content: $ams-power; 
+  }
+}
+.ams-present {
+  &:before {
+    content: $ams-present; 
+  }
+}
+.ams-printer {
+  &:before {
+    content: $ams-printer; 
+  }
+}
+.ams-radar {
+  &:before {
+    content: $ams-radar; 
+  }
+}
+.ams-record {
+  &:before {
+    content: $ams-record; 
+  }
+}
+.ams-reddit {
+  &:before {
+    content: $ams-reddit; 
+  }
+}
+.ams-reload {
+  &:before {
+    content: $ams-reload; 
+  }
+}
+.ams-reload-2 {
+  &:before {
+    content: $ams-reload-2; 
+  }
+}
+.ams-repeat {
+  &:before {
+    content: $ams-repeat; 
+  }
+}
+.ams-repeat-2 {
+  &:before {
+    content: $ams-repeat-2; 
+  }
+}
+.ams-rocket {
+  &:before {
+    content: $ams-rocket; 
+  }
+}
+.ams-route {
+  &:before {
+    content: $ams-route; 
+  }
+}
+.ams-route-2 {
+  &:before {
+    content: $ams-route-2; 
+  }
+}
+.ams-rss {
+  &:before {
+    content: $ams-rss; 
+  }
+}
+.ams-sale-1 {
+  &:before {
+    content: $ams-sale-1; 
+  }
+}
+.ams-scan {
+  &:before {
+    content: $ams-scan; 
+  }
+}
+.ams-scissors {
+  &:before {
+    content: $ams-scissors; 
+  }
+}
+.ams-screenshot {
+  &:before {
+    content: $ams-screenshot; 
+  }
+}
+.ams-search {
+  &:before {
+    content: $ams-search; 
+  }
+}
+.ams-searching {
+  &:before {
+    content: $ams-searching; 
+  }
+}
+.ams-send {
+  &:before {
+    content: $ams-send; 
+  }
+}
+.ams-setting-2 {
+  &:before {
+    content: $ams-setting-2; 
+  }
+}
+.ams-settings-filter {
+  &:before {
+    content: $ams-settings-filter; 
+  }
+}
+.ams-share-1 {
+  &:before {
+    content: $ams-share-1; 
+  }
+}
+.ams-shield {
+  &:before {
+    content: $ams-shield; 
+  }
+}
+.ams-shop-bag {
+  &:before {
+    content: $ams-shop-bag; 
+  }
+}
+.ams-shop-cart-1 {
+  &:before {
+    content: $ams-shop-cart-1; 
+  }
+}
+.ams-shop-check {
+  &:before {
+    content: $ams-shop-check; 
+  }
+}
+.ams-shuffle {
+  &:before {
+    content: $ams-shuffle; 
+  }
+}
+.ams-skype {
+  &:before {
+    content: $ams-skype; 
+  }
+}
+.ams-slack {
+  &:before {
+    content: $ams-slack; 
+  }
+}
+.ams-smartphone {
+  &:before {
+    content: $ams-smartphone; 
+  }
+}
+.ams-smart-watch {
+  &:before {
+    content: $ams-smart-watch; 
+  }
+}
+.ams-snapchat {
+  &:before {
+    content: $ams-snapchat; 
+  }
+}
+.ams-social-2 {
+  &:before {
+    content: $ams-social-2; 
+  }
+}
+.ams-social-media {
+  &:before {
+    content: $ams-social-media; 
+  }
+}
+.ams-social-share {
+  &:before {
+    content: $ams-social-share; 
+  }
+}
+.ams-social-share-2 {
+  &:before {
+    content: $ams-social-share-2; 
+  }
+}
+.ams-soundcloud {
+  &:before {
+    content: $ams-soundcloud; 
+  }
+}
+.ams-sound-off {
+  &:before {
+    content: $ams-sound-off; 
+  }
+}
+.ams-sound-on {
+  &:before {
+    content: $ams-sound-on; 
+  }
+}
+.ams-spotify {
+  &:before {
+    content: $ams-spotify; 
+  }
+}
+.ams-star {
+  &:before {
+    content: $ams-star; 
+  }
+}
+.ams-sticker {
+  &:before {
+    content: $ams-sticker; 
+  }
+}
+.ams-suitcase {
+  &:before {
+    content: $ams-suitcase; 
+  }
+}
+.ams-sun {
+  &:before {
+    content: $ams-sun; 
+  }
+}
+.ams-tag {
+  &:before {
+    content: $ams-tag; 
+  }
+}
+.ams-tap {
+  &:before {
+    content: $ams-tap; 
+  }
+}
+.ams-target-1 {
+  &:before {
+    content: $ams-target-1; 
+  }
+}
+.ams-target-2 {
+  &:before {
+    content: $ams-target-2; 
+  }
+}
+.ams-text {
+  &:before {
+    content: $ams-text; 
+  }
+}
+.ams-ticket {
+  &:before {
+    content: $ams-ticket; 
+  }
+}
+.ams-timer {
+  &:before {
+    content: $ams-timer; 
+  }
+}
+.ams-timer-2 {
+  &:before {
+    content: $ams-timer-2; 
+  }
+}
+.ams-tumblr {
+  &:before {
+    content: $ams-tumblr; 
+  }
+}
+.ams-tv {
+  &:before {
+    content: $ams-tv; 
+  }
+}
+.ams-twitter {
+  &:before {
+    content: $ams-twitter; 
+  }
+}
+.ams-uber {
+  &:before {
+    content: $ams-uber; 
+  }
+}
+.ams-ufo {
+  &:before {
+    content: $ams-ufo; 
+  }
+}
+.ams-upload {
+  &:before {
+    content: $ams-upload; 
+  }
+}
+.ams-user {
+  &:before {
+    content: $ams-user; 
+  }
+}
+.ams-vector {
+  &:before {
+    content: $ams-vector; 
+  }
+}
+.ams-video {
+  &:before {
+    content: $ams-video; 
+  }
+}
+.ams-video-camera {
+  &:before {
+    content: $ams-video-camera; 
+  }
+}
+.ams-vimeo {
+  &:before {
+    content: $ams-vimeo; 
+  }
+}
+.ams-vkontakte {
+  &:before {
+    content: $ams-vkontakte; 
+  }
+}
+.ams-wallet {
+  &:before {
+    content: $ams-wallet; 
+  }
+}
+.ams-whatsup {
+  &:before {
+    content: $ams-whatsup; 
+  }
+}
+.ams-wi-fi {
+  &:before {
+    content: $ams-wi-fi; 
+  }
+}
+.ams-windows {
+  &:before {
+    content: $ams-windows; 
+  }
+}
+.ams-youtube {
+  &:before {
+    content: $ams-youtube; 
+  }
+}
+
