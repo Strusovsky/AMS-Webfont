@@ -1,0 +1,622 @@
+@import "variables";
+
+@font-face {
+  font-family: 'Brands-icons';
+  src:  url('#{$icomoon-font-path}/Brands-icons.eot?ifhhl1');
+  src:  url('#{$icomoon-font-path}/Brands-icons.eot?ifhhl1#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/Brands-icons.ttf?ifhhl1') format('truetype'),
+    url('#{$icomoon-font-path}/Brands-icons.woff?ifhhl1') format('woff'),
+    url('#{$icomoon-font-path}/Brands-icons.svg?ifhhl1#Brands-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Brands-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.brnds-addthis {
+  &:before {
+    content: $brnds-addthis;     
+    color: #ff6550;
+  }
+}
+.brnds-adobeacrobatreader {
+  &:before {
+    content: $brnds-adobeacrobatreader;     
+    color: #ee3f24;
+  }
+}
+.brnds-applemusic {
+  &:before {
+    content: $brnds-applemusic; 
+  }
+}
+.brnds-atom {
+  &:before {
+    content: $brnds-atom;     
+    color: #66595c;
+  }
+}
+.brnds-behance {
+  &:before {
+    content: $brnds-behance;     
+    color: #1769ff;
+  }
+}
+.brnds-bitcoin {
+  &:before {
+    content: $brnds-bitcoin;     
+    color: #f7931a;
+  }
+}
+.brnds-bitly {
+  &:before {
+    content: $brnds-bitly;     
+    color: #ee6123;
+  }
+}
+.brnds-bootstrap {
+  &:before {
+    content: $brnds-bootstrap;     
+    color: #563d7c;
+  }
+}
+.brnds-buffer {
+  &:before {
+    content: $brnds-buffer;     
+    color: #168eea;
+  }
+}
+.brnds-buzzfeed {
+  &:before {
+    content: $brnds-buzzfeed;     
+    color: #e32;
+  }
+}
+.brnds-codeforces {
+  &:before {
+    content: $brnds-codeforces;     
+    color: #1f8acb;
+  }
+}
+.brnds-codeigniter {
+  &:before {
+    content: $brnds-codeigniter;     
+    color: #ee4623;
+  }
+}
+.brnds-codepen {
+  &:before {
+    content: $brnds-codepen; 
+  }
+}
+.brnds-coursera {
+  &:before {
+    content: $brnds-coursera;     
+    color: #2a73cc;
+  }
+}
+.brnds-css3 {
+  &:before {
+    content: $brnds-css3;     
+    color: #1572b6;
+  }
+}
+.brnds-csswizardry {
+  &:before {
+    content: $brnds-csswizardry;     
+    color: #f43059;
+  }
+}
+.brnds-deezer {
+  &:before {
+    content: $brnds-deezer;     
+    color: #00c7f2;
+  }
+}
+.brnds-discourse {
+  &:before {
+    content: $brnds-discourse; 
+  }
+}
+.brnds-disqus {
+  &:before {
+    content: $brnds-disqus;     
+    color: #2e9fff;
+  }
+}
+.brnds-dribbble {
+  &:before {
+    content: $brnds-dribbble;     
+    color: #ea4c89;
+  }
+}
+.brnds-dropbox {
+  &:before {
+    content: $brnds-dropbox;     
+    color: #0061ff;
+  }
+}
+.brnds-facebook {
+  &:before {
+    content: $brnds-facebook;     
+    color: #3b5998;
+  }
+}
+.brnds-feedly {
+  &:before {
+    content: $brnds-feedly;     
+    color: #2bb24c;
+  }
+}
+.brnds-flickr {
+  &:before {
+    content: $brnds-flickr;     
+    color: #0063dc;
+  }
+}
+.brnds-foursquare {
+  &:before {
+    content: $brnds-foursquare;     
+    color: #f94877;
+  }
+}
+.brnds-garmin {
+  &:before {
+    content: $brnds-garmin;     
+    color: #007cc3;
+  }
+}
+.brnds-ghost {
+  &:before {
+    content: $brnds-ghost;     
+    color: #738a94;
+  }
+}
+.brnds-github {
+  &:before {
+    content: $brnds-github; 
+  }
+}
+.brnds-gitlab {
+  &:before {
+    content: $brnds-gitlab;     
+    color: #e24329;
+  }
+}
+.brnds-glassdoor {
+  &:before {
+    content: $brnds-glassdoor;     
+    color: #0caa41;
+  }
+}
+.brnds-gmail {
+  &:before {
+    content: $brnds-gmail;     
+    color: #d14836;
+  }
+}
+.brnds-google {
+  &:before {
+    content: $brnds-google;     
+    color: #4285f4;
+  }
+}
+.brnds-googleallo {
+  &:before {
+    content: $brnds-googleallo;     
+    color: #ecb842;
+  }
+}
+.brnds-googleanalytics {
+  &:before {
+    content: $brnds-googleanalytics;     
+    color: #ffc107;
+  }
+}
+.brnds-googlechrome {
+  &:before {
+    content: $brnds-googlechrome;     
+    color: #4285f4;
+  }
+}
+.brnds-googledrive {
+  &:before {
+    content: $brnds-googledrive;     
+    color: #4386fc;
+  }
+}
+.brnds-googlehangouts {
+  &:before {
+    content: $brnds-googlehangouts;     
+    color: #0c9d58;
+  }
+}
+.brnds-googleplay {
+  &:before {
+    content: $brnds-googleplay;     
+    color: #607d8b;
+  }
+}
+.brnds-googleplus {
+  &:before {
+    content: $brnds-googleplus;     
+    color: #dc4e41;
+  }
+}
+.brnds-html5 {
+  &:before {
+    content: $brnds-html5;     
+    color: #e34f26;
+  }
+}
+.brnds-instagram {
+  &:before {
+    content: $brnds-instagram;     
+    color: #e4405f;
+  }
+}
+.brnds-invision {
+  &:before {
+    content: $brnds-invision;     
+    color: #f36;
+  }
+}
+.brnds-javascript {
+  &:before {
+    content: $brnds-javascript;     
+    color: #f7df1e;
+  }
+}
+.brnds-jquery {
+  &:before {
+    content: $brnds-jquery;     
+    color: #0769ad;
+  }
+}
+.brnds-koding {
+  &:before {
+    content: $brnds-koding;     
+    color: #00b057;
+  }
+}
+.brnds-lastfm {
+  &:before {
+    content: $brnds-lastfm;     
+    color: #d51007;
+  }
+}
+.brnds-linkedin {
+  &:before {
+    content: $brnds-linkedin;     
+    color: #0077b5;
+  }
+}
+.brnds-macys {
+  &:before {
+    content: $brnds-macys;     
+    color: #e21a2c;
+  }
+}
+.brnds-mailchimp {
+  &:before {
+    content: $brnds-mailchimp;     
+    color: #239ab9;
+  }
+}
+.brnds-mailru {
+  &:before {
+    content: $brnds-mailru;     
+    color: #168de2;
+  }
+}
+.brnds-medium {
+  &:before {
+    content: $brnds-medium; 
+  }
+}
+.brnds-messenger {
+  &:before {
+    content: $brnds-messenger;     
+    color: #0084ff;
+  }
+}
+.brnds-microblog {
+  &:before {
+    content: $brnds-microblog;     
+    color: #fd8308;
+  }
+}
+.brnds-minutemailer {
+  &:before {
+    content: $brnds-minutemailer;     
+    color: #3abfe6;
+  }
+}
+.brnds-monero {
+  &:before {
+    content: $brnds-monero;     
+    color: #f60;
+  }
+}
+.brnds-monogram {
+  &:before {
+    content: $brnds-monogram;     
+    color: #fdb22a;
+  }
+}
+.brnds-odnoklassniki {
+  &:before {
+    content: $brnds-odnoklassniki;     
+    color: #f4731c;
+  }
+}
+.brnds-onedrive {
+  &:before {
+    content: $brnds-onedrive;     
+    color: #094ab2;
+  }
+}
+.brnds-opera {
+  &:before {
+    content: $brnds-opera;     
+    color: #ff1b2d;
+  }
+}
+.brnds-overcast {
+  &:before {
+    content: $brnds-overcast;     
+    color: #fc7e0f;
+  }
+}
+.brnds-paypal {
+  &:before {
+    content: $brnds-paypal;     
+    color: #00457c;
+  }
+}
+.brnds-periscope {
+  &:before {
+    content: $brnds-periscope;     
+    color: #40a4c4;
+  }
+}
+.brnds-pinterest {
+  &:before {
+    content: $brnds-pinterest;     
+    color: #bd081c;
+  }
+}
+.brnds-pocket {
+  &:before {
+    content: $brnds-pocket;     
+    color: #ef3f56;
+  }
+}
+.brnds-react {
+  &:before {
+    content: $brnds-react;     
+    color: #61dafb;
+  }
+}
+.brnds-redux {
+  &:before {
+    content: $brnds-redux;     
+    color: #764abc;
+  }
+}
+.brnds-reverbnation {
+  &:before {
+    content: $brnds-reverbnation;     
+    color: #e43526;
+  }
+}
+.brnds-salesforce {
+  &:before {
+    content: $brnds-salesforce;     
+    color: #00a1e0;
+  }
+}
+.brnds-sellfy {
+  &:before {
+    content: $brnds-sellfy;     
+    color: #21b352;
+  }
+}
+.brnds-shazam {
+  &:before {
+    content: $brnds-shazam;     
+    color: #08f;
+  }
+}
+.brnds-signal {
+  &:before {
+    content: $brnds-signal;     
+    color: #2592e9;
+  }
+}
+.brnds-sitepoint {
+  &:before {
+    content: $brnds-sitepoint;     
+    color: #258aaf;
+  }
+}
+.brnds-skype {
+  &:before {
+    content: $brnds-skype;     
+    color: #00aff0;
+  }
+}
+.brnds-slack {
+  &:before {
+    content: $brnds-slack;     
+    color: #56b68b;
+  }
+}
+.brnds-slashdot {
+  &:before {
+    content: $brnds-slashdot;     
+    color: #026664;
+  }
+}
+.brnds-snapchat {
+  &:before {
+    content: $brnds-snapchat;     
+    color: #fffc00;
+  }
+}
+.brnds-sparkpost {
+  &:before {
+    content: $brnds-sparkpost;     
+    color: #fa6423;
+  }
+}
+.brnds-spotify {
+  &:before {
+    content: $brnds-spotify;     
+    color: #1ed760;
+  }
+}
+.brnds-telegram {
+  &:before {
+    content: $brnds-telegram;     
+    color: #2ca5e0;
+  }
+}
+.brnds-tinder {
+  &:before {
+    content: $brnds-tinder;     
+    color: #ff6b6b;
+  }
+}
+.brnds-toggl {
+  &:before {
+    content: $brnds-toggl;     
+    color: #e01b22;
+  }
+}
+.brnds-trello {
+  &:before {
+    content: $brnds-trello;     
+    color: #0079bf;
+  }
+}
+.brnds-twilio {
+  &:before {
+    content: $brnds-twilio;     
+    color: #f22f46;
+  }
+}
+.brnds-twitch {
+  &:before {
+    content: $brnds-twitch;     
+    color: #6441a4;
+  }
+}
+.brnds-twitter {
+  &:before {
+    content: $brnds-twitter;     
+    color: #1da1f2;
+  }
+}
+.brnds-twoo {
+  &:before {
+    content: $brnds-twoo;     
+    color: #ff7102;
+  }
+}
+.brnds-unsplash {
+  &:before {
+    content: $brnds-unsplash; 
+  }
+}
+.brnds-viber {
+  &:before {
+    content: $brnds-viber;     
+    color: #665cac;
+  }
+}
+.brnds-vimeo {
+  &:before {
+    content: $brnds-vimeo;     
+    color: #1ab7ea;
+  }
+}
+.brnds-vine {
+  &:before {
+    content: $brnds-vine;     
+    color: #11b48a;
+  }
+}
+.brnds-visa {
+  &:before {
+    content: $brnds-visa;     
+    color: #142787;
+  }
+}
+.brnds-vk {
+  &:before {
+    content: $brnds-vk;     
+    color: #6383a8;
+  }
+}
+.brnds-whatsapp {
+  &:before {
+    content: $brnds-whatsapp;     
+    color: #25d366;
+  }
+}
+.brnds-wheniwork {
+  &:before {
+    content: $brnds-wheniwork;     
+    color: #51a33d;
+  }
+}
+.brnds-yandex {
+  &:before {
+    content: $brnds-yandex;     
+    color: #f00;
+  }
+}
+.brnds-ycombinator {
+  &:before {
+    content: $brnds-ycombinator;     
+    color: #f0652f;
+  }
+}
+.brnds-yelp {
+  &:before {
+    content: $brnds-yelp;     
+    color: #d32323;
+  }
+}
+.brnds-youtube {
+  &:before {
+    content: $brnds-youtube;     
+    color: #f00;
+  }
+}
+.brnds-zapier {
+  &:before {
+    content: $brnds-zapier;     
+    color: #ff4a00;
+  }
+}
+.brnds-zendesk {
+  &:before {
+    content: $brnds-zendesk; 
+  }
+}
+

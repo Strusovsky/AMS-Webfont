@@ -1,0 +1,419 @@
+@font-face {
+  font-family: 'Brands-icons';
+  src:  url('fonts/Brands-icons.eot?ifhhl1');
+  src:  url('fonts/Brands-icons.eot?ifhhl1#iefix') format('embedded-opentype'),
+    url('fonts/Brands-icons.ttf?ifhhl1') format('truetype'),
+    url('fonts/Brands-icons.woff?ifhhl1') format('woff'),
+    url('fonts/Brands-icons.svg?ifhhl1#Brands-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Brands-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.brnds-addthis:before {
+  content: "\e900";
+  color: #ff6550;
+}
+.brnds-adobeacrobatreader:before {
+  content: "\e901";
+  color: #ee3f24;
+}
+.brnds-applemusic:before {
+  content: "\e902";
+}
+.brnds-atom:before {
+  content: "\e903";
+  color: #66595c;
+}
+.brnds-behance:before {
+  content: "\e904";
+  color: #1769ff;
+}
+.brnds-bitcoin:before {
+  content: "\e905";
+  color: #f7931a;
+}
+.brnds-bitly:before {
+  content: "\e906";
+  color: #ee6123;
+}
+.brnds-bootstrap:before {
+  content: "\e907";
+  color: #563d7c;
+}
+.brnds-buffer:before {
+  content: "\e908";
+  color: #168eea;
+}
+.brnds-buzzfeed:before {
+  content: "\e909";
+  color: #e32;
+}
+.brnds-codeforces:before {
+  content: "\e90a";
+  color: #1f8acb;
+}
+.brnds-codeigniter:before {
+  content: "\e90b";
+  color: #ee4623;
+}
+.brnds-codepen:before {
+  content: "\e90c";
+}
+.brnds-coursera:before {
+  content: "\e90d";
+  color: #2a73cc;
+}
+.brnds-css3:before {
+  content: "\e90e";
+  color: #1572b6;
+}
+.brnds-csswizardry:before {
+  content: "\e90f";
+  color: #f43059;
+}
+.brnds-deezer:before {
+  content: "\e910";
+  color: #00c7f2;
+}
+.brnds-discourse:before {
+  content: "\e911";
+}
+.brnds-disqus:before {
+  content: "\e912";
+  color: #2e9fff;
+}
+.brnds-dribbble:before {
+  content: "\e913";
+  color: #ea4c89;
+}
+.brnds-dropbox:before {
+  content: "\e914";
+  color: #0061ff;
+}
+.brnds-facebook:before {
+  content: "\e915";
+  color: #3b5998;
+}
+.brnds-feedly:before {
+  content: "\e916";
+  color: #2bb24c;
+}
+.brnds-flickr:before {
+  content: "\e917";
+  color: #0063dc;
+}
+.brnds-foursquare:before {
+  content: "\e918";
+  color: #f94877;
+}
+.brnds-garmin:before {
+  content: "\e919";
+  color: #007cc3;
+}
+.brnds-ghost:before {
+  content: "\e91a";
+  color: #738a94;
+}
+.brnds-github:before {
+  content: "\e91b";
+}
+.brnds-gitlab:before {
+  content: "\e91c";
+  color: #e24329;
+}
+.brnds-glassdoor:before {
+  content: "\e91d";
+  color: #0caa41;
+}
+.brnds-gmail:before {
+  content: "\e91e";
+  color: #d14836;
+}
+.brnds-google:before {
+  content: "\e91f";
+  color: #4285f4;
+}
+.brnds-googleallo:before {
+  content: "\e920";
+  color: #ecb842;
+}
+.brnds-googleanalytics:before {
+  content: "\e921";
+  color: #ffc107;
+}
+.brnds-googlechrome:before {
+  content: "\e922";
+  color: #4285f4;
+}
+.brnds-googledrive:before {
+  content: "\e923";
+  color: #4386fc;
+}
+.brnds-googlehangouts:before {
+  content: "\e924";
+  color: #0c9d58;
+}
+.brnds-googleplay:before {
+  content: "\e925";
+  color: #607d8b;
+}
+.brnds-googleplus:before {
+  content: "\e926";
+  color: #dc4e41;
+}
+.brnds-html5:before {
+  content: "\e927";
+  color: #e34f26;
+}
+.brnds-instagram:before {
+  content: "\e928";
+  color: #e4405f;
+}
+.brnds-invision:before {
+  content: "\e929";
+  color: #f36;
+}
+.brnds-javascript:before {
+  content: "\e92a";
+  color: #f7df1e;
+}
+.brnds-jquery:before {
+  content: "\e92b";
+  color: #0769ad;
+}
+.brnds-koding:before {
+  content: "\e92c";
+  color: #00b057;
+}
+.brnds-lastfm:before {
+  content: "\e92d";
+  color: #d51007;
+}
+.brnds-linkedin:before {
+  content: "\e92e";
+  color: #0077b5;
+}
+.brnds-macys:before {
+  content: "\e92f";
+  color: #e21a2c;
+}
+.brnds-mailchimp:before {
+  content: "\e930";
+  color: #239ab9;
+}
+.brnds-mailru:before {
+  content: "\e931";
+  color: #168de2;
+}
+.brnds-medium:before {
+  content: "\e932";
+}
+.brnds-messenger:before {
+  content: "\e933";
+  color: #0084ff;
+}
+.brnds-microblog:before {
+  content: "\e934";
+  color: #fd8308;
+}
+.brnds-minutemailer:before {
+  content: "\e935";
+  color: #3abfe6;
+}
+.brnds-monero:before {
+  content: "\e936";
+  color: #f60;
+}
+.brnds-monogram:before {
+  content: "\e937";
+  color: #fdb22a;
+}
+.brnds-odnoklassniki:before {
+  content: "\e938";
+  color: #f4731c;
+}
+.brnds-onedrive:before {
+  content: "\e939";
+  color: #094ab2;
+}
+.brnds-opera:before {
+  content: "\e93a";
+  color: #ff1b2d;
+}
+.brnds-overcast:before {
+  content: "\e93b";
+  color: #fc7e0f;
+}
+.brnds-paypal:before {
+  content: "\e93c";
+  color: #00457c;
+}
+.brnds-periscope:before {
+  content: "\e93d";
+  color: #40a4c4;
+}
+.brnds-pinterest:before {
+  content: "\e93e";
+  color: #bd081c;
+}
+.brnds-pocket:before {
+  content: "\e93f";
+  color: #ef3f56;
+}
+.brnds-react:before {
+  content: "\e940";
+  color: #61dafb;
+}
+.brnds-redux:before {
+  content: "\e941";
+  color: #764abc;
+}
+.brnds-reverbnation:before {
+  content: "\e942";
+  color: #e43526;
+}
+.brnds-salesforce:before {
+  content: "\e943";
+  color: #00a1e0;
+}
+.brnds-sellfy:before {
+  content: "\e944";
+  color: #21b352;
+}
+.brnds-shazam:before {
+  content: "\e945";
+  color: #08f;
+}
+.brnds-signal:before {
+  content: "\e946";
+  color: #2592e9;
+}
+.brnds-sitepoint:before {
+  content: "\e947";
+  color: #258aaf;
+}
+.brnds-skype:before {
+  content: "\e948";
+  color: #00aff0;
+}
+.brnds-slack:before {
+  content: "\e949";
+  color: #56b68b;
+}
+.brnds-slashdot:before {
+  content: "\e94a";
+  color: #026664;
+}
+.brnds-snapchat:before {
+  content: "\e94b";
+  color: #fffc00;
+}
+.brnds-sparkpost:before {
+  content: "\e94c";
+  color: #fa6423;
+}
+.brnds-spotify:before {
+  content: "\e94d";
+  color: #1ed760;
+}
+.brnds-telegram:before {
+  content: "\e94e";
+  color: #2ca5e0;
+}
+.brnds-tinder:before {
+  content: "\e94f";
+  color: #ff6b6b;
+}
+.brnds-toggl:before {
+  content: "\e950";
+  color: #e01b22;
+}
+.brnds-trello:before {
+  content: "\e951";
+  color: #0079bf;
+}
+.brnds-twilio:before {
+  content: "\e952";
+  color: #f22f46;
+}
+.brnds-twitch:before {
+  content: "\e953";
+  color: #6441a4;
+}
+.brnds-twitter:before {
+  content: "\e954";
+  color: #1da1f2;
+}
+.brnds-twoo:before {
+  content: "\e955";
+  color: #ff7102;
+}
+.brnds-unsplash:before {
+  content: "\e956";
+}
+.brnds-viber:before {
+  content: "\e957";
+  color: #665cac;
+}
+.brnds-vimeo:before {
+  content: "\e958";
+  color: #1ab7ea;
+}
+.brnds-vine:before {
+  content: "\e959";
+  color: #11b48a;
+}
+.brnds-visa:before {
+  content: "\e95a";
+  color: #142787;
+}
+.brnds-vk:before {
+  content: "\e95b";
+  color: #6383a8;
+}
+.brnds-whatsapp:before {
+  content: "\e95c";
+  color: #25d366;
+}
+.brnds-wheniwork:before {
+  content: "\e95d";
+  color: #51a33d;
+}
+.brnds-yandex:before {
+  content: "\e95e";
+  color: #f00;
+}
+.brnds-ycombinator:before {
+  content: "\e95f";
+  color: #f0652f;
+}
+.brnds-yelp:before {
+  content: "\e960";
+  color: #d32323;
+}
+.brnds-youtube:before {
+  content: "\e961";
+  color: #f00;
+}
+.brnds-zapier:before {
+  content: "\e962";
+  color: #ff4a00;
+}
+.brnds-zendesk:before {
+  content: "\e963";
+}
